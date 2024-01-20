@@ -9,7 +9,7 @@ btn.addEventListener("click",()=>{
         if(input.value < 0){
             res.innerHTML="VALOR INVALIDO DIGITE NUMERO MAIORES QUE ZERO"
         }else{
-            let numeroSortado = Math.floor(Math.random()*input.value)
+            let numeroSortado = Math.floor(Math.random()*input.value+1)
             res.innerHTML =+ numeroSortado
             numerosSorteados.push(numeroSortado)
             console.log(numerosSorteados)
